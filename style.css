@@ -1,0 +1,86 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+header{
+    display: inline;
+}
+
+section{
+    text-align: center;
+}
+
+.button{
+    background: none;
+    border: none;
+    color: #7944e6;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.button:hover{
+    color: #10fdff;
+}
+
+.bordered_section{
+    border: #7944e6 solid 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+li{
+    padding: 10px;
+    font-size: 5px;
+}
+
+.menu{
+    float: right;
+    justify-content: space-between;
+
+}
+
+.first_section{
+    background-color: #ff00ff;
+    padding-bottom: 15px;
+    
+}
+
+.about_paragraph{
+    text-align: left;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 800px) {
+    .images{
+        display: flex;
+        justify-content: row wrap;
+    }
+
+    .bordered_section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .first_section{
+        display: flex;
+        justify-content: row wrap;
+        width: 100%;
+    }
+
+    .button{
+        font-size: 30px;
+    }
+}
