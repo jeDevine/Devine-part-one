@@ -1,5 +1,6 @@
 body{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'bungee', cursive;
+    font-style: oblique;
     font-weight: bolder;
     margin: 20px;
 }
@@ -18,6 +19,7 @@ section{
     color: #7944e6;
     font-size: 15px;
     font-weight: bolder;
+    text-decoration: none;
 }
 
 .button:hover{
@@ -55,7 +57,24 @@ li{
 .first_section{
     background-color: #ff00ff;
     padding-bottom: 15px;
-    
+    padding-top: 20px;
+}
+
+#foodTruck{
+    width: 45%;
+}
+
+#coffeeImage{
+    width: "100%";
+    height: "100%";
+}
+#creaamImage{
+    width: "100%";
+    height: "100%";
+}
+#cookiesImage{
+    width: "100%";
+    height: "100%";
 }
 
 .about_paragraph{
@@ -63,10 +82,14 @@ li{
     padding-left: 10px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     .images{
         display: flex;
         justify-content: row wrap;
+    }
+
+    body {
+        padding: 15px;
     }
 
     .bordered_section{
@@ -74,10 +97,29 @@ li{
         margin-right: 20px;
     }
 
+    #foodTruck{
+        width: 40%;
+        padding-left: 40px;
+    }
+
+    #coffeeImage{
+        width: 100%;
+        height: 100%;
+    }
+    #creamImage{
+        width: 100%;
+        height: 100%;
+    }
+    #cookiesImage{
+        width: 100%;
+        height: 100%;
+    }
+
     .first_section{
         display: flex;
         justify-content: row wrap;
         width: 100%;
+        
     }
 
     .button{
