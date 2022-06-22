@@ -1,128 +1,128 @@
-body{
-    font-family: 'bungee', cursive;
-    font-style: oblique;
-    font-weight: bolder;
-    margin: 20px;
+body {
+  font-family: "bungee", cursive;
+  font-style: oblique;
+  font-weight: bolder;
+  margin: 20px;
 }
 
-header{
-    display: inline;
+header {
+  display: inline;
 }
 
-section{
-    text-align: center;
+section {
+  text-align: center;
 }
 
-.button{
-    background: none;
-    border: none;
-    color: #7944e6;
-    font-size: 15px;
-    font-weight: bolder;
-    text-decoration: none;
+.button {
+  background: none;
+  border: none;
+  color: #7944e6;
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
-.button:hover{
-    color: #10fdff;
+.button:hover {
+  color: #10fdff;
 }
 
-.bordered_section{
-    border: #7944e6 solid 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
+.bordered_section {
+  border: #7944e6 solid 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
-ul{
-    list-style: none;
-    display: inline-flex;
-
+ul {
+  list-style: none;
+  display: inline-flex;
 }
 
-li{
-    padding: 10px;
-    font-size: 5px;
+li {
+  padding: 10px;
+  font-size: 5px;
 }
 
-.menu{
-    float: right;
-    justify-content: space-between;
-
+.menu {
+  float: right;
+  justify-content: space-between;
 }
 
-.first_section{
-    background-color: #ff00ff;
-    padding-bottom: 15px;
-    padding-top: 20px;
+.first_section {
+  background-color: #ff00ff;
+  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
-#foodTruck{
-    width: 45%;
+#foodTruck {
+  width: 45%;
 }
 
-#coffeeImage{
-    width: "100%";
-    height: "100%";
+#coffeeImage {
+  width: "100%";
+  height: "100%";
 }
-#creaamImage{
-    width: "100%";
-    height: "100%";
+#creaamImage {
+  width: "100%";
+  height: "100%";
 }
-#cookiesImage{
-    width: "100%";
-    height: "100%";
+#cookiesImage {
+  width: "100%";
+  height: "100%";
 }
 
-.about_paragraph{
-    text-align: left;
-    padding-left: 10px;
+.about_paragraph {
+  text-align: left;
+  padding-left: 10px;
 }
 
 @media screen and (min-width: 768px) {
-    .images{
-        display: flex;
-        justify-content: row wrap;
-    }
+  .images {
+    position: absolute;
+    display: flex;
+    transform: translate(-17px, -208px);
+  }
 
-    body {
-        padding: 15px;
-    }
+  body {
+    padding: 15px;
+  }
 
-    .bordered_section{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+  .bordered_section {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+  }
 
-    #foodTruck{
-        width: 40%;
-        padding-left: 40px;
-    }
+  #foodTruck {
+    width: 40%;
+    padding-left: 40px;
+  }
 
-    #coffeeImage{
-        width: 100%;
-        height: 100%;
-    }
-    #creamImage{
-        width: 100%;
-        height: 100%;
-    }
-    #cookiesImage{
-        width: 100%;
-        height: 100%;
-    }
+  #coffeeImage {
+    width: 100%;
+    height: 100%;
+  }
+  #creamImage {
+    width: 100%;
+    height: 100%;
+  }
+  #cookiesImage {
+    width: 100%;
+    height: 100%;
+  }
 
-    .first_section{
-        display: flex;
-        justify-content: row wrap;
-        width: 100%;
-        
-    }
+  .first_section {
+    display: flex;
+    justify-content: row wrap;
+    width: 100%;
+    padding-bottom: 180px;
+  }
 
-    .button{
-        font-size: 30px;
-    }
+  .button {
+    font-size: 30px;
+  }
 }
